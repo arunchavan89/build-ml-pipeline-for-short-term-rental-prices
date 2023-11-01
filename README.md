@@ -54,6 +54,10 @@ Make sure to have conda installed and ready, then create a new environment using
 file provided in the root of the repository and activate it:
 
 ```bash
+Optional: It is used to activate conda environment
+> eval "$(miniconda3/bin/conda shell.bash hook)"
+Optional: It is used to uninstall preinstalled conda environment 
+> conda clean -a
 > conda env create -f environment.yml
 > conda activate nyc_airbnb_dev
 ```
